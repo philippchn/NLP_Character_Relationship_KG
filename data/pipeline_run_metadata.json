@@ -1,0 +1,8 @@
+{
+  "label_source": "llm_judge",
+  "candidate_source_csv": "data\\candidate_examples_llm_labeled.csv",
+  "split_method": "grouped_by_pair",
+  "train_csv": "data\\train.csv",
+  "dev_csv": "data\\dev.csv",
+  "test_csv": "data\\test.csv"
+}

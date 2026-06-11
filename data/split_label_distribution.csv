@@ -1,0 +1,7 @@
+label,train,dev,test
+family,1393,275,272
+no_relation,936,221,209
+romantic,688,151,125
+service_retainer,471,94,84
+friend_ally,467,108,112
+enemy_rival,296,66,63

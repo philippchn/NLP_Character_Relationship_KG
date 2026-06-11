@@ -1,0 +1,7 @@
+,pred_family,pred_romantic,pred_friend_ally,pred_service_retainer,pred_enemy_rival,pred_no_relation
+true_family,241,7,1,2,4,17
+true_romantic,16,70,12,2,4,21
+true_friend_ally,4,6,53,5,2,42
+true_service_retainer,2,3,4,54,1,20
+true_enemy_rival,5,3,3,4,24,24
+true_no_relation,12,8,20,8,2,159

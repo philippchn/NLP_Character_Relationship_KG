@@ -1,0 +1,2 @@
+variant,text_column,dev_accuracy,dev_macro_f1,dev_weighted_f1,test_accuracy,test_macro_f1,test_weighted_f1,train_examples,dev_examples,test_examples,vocab_size,max_len,embedding_dim,hidden_dim,epochs_run,best_dev_macro_f1
+bilstm_marked,text_marked,0.6371584699453552,0.596182143310079,0.6380604851829853,0.6427745664739885,0.5897811512666408,0.6442682299401081,4251,915,865,6378,128,100,128,8,0.596182143310079

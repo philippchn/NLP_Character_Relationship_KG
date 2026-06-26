@@ -1,6 +1,9 @@
 {
   "label_source": "llm_judge",
   "candidate_source_csv": "data\\candidate_examples_llm_labeled.csv",
+  "weak_candidate_examples_csv": "data\\candidate_examples.csv",
+  "llm_labeled_candidates_csv": "data\\candidate_examples_llm_labeled.csv",
+  "label_source_mode": "auto",
   "split_method": "grouped_by_pair",
   "train_csv": "data\\train.csv",
   "dev_csv": "data\\dev.csv",

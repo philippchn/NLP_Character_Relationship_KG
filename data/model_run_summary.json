@@ -3,6 +3,7 @@
   "data_dir": "data",
   "baseline_output_dir": "baseline",
   "bilstm_output_dir": "bilstm",
+  "transformer_output_dir": "transformer",
   "relationship_labels": [
     "family",
     "romantic",
@@ -32,9 +33,15 @@
   "bilstm_variant": "bilstm_marked",
   "bilstm_dev_macro_f1": 0.596182143310079,
   "bilstm_test_macro_f1": 0.5897811512666408,
+  "transformer_variant": "distilbert_marked",
+  "transformer_base_model": "distilbert-base-uncased",
+  "transformer_dev_macro_f1": 0.739657593407702,
+  "transformer_test_macro_f1": 0.7446969843379009,
   "num_kg_edges_bilstm": 976,
+  "num_kg_edges_transformer": 1297,
   "baseline_graph_status": "existing_file",
   "bilstm_graph_status": "existing_file",
+  "transformer_graph_status": "existing_file",
   "shared_data_files": [
     "data\\bookworm_09062026.xml",
     "data\\candidate_examples.csv",
@@ -77,5 +84,22 @@
     "bilstm\\predictions_all_bilstm.csv",
     "bilstm\\predictions_test_bilstm.csv",
     "bilstm\\training_history.csv"
+  ],
+  "transformer_files_written": [
+    "transformer\\classification_report_transformer.csv",
+    "transformer\\confusion_matrix_transformer.csv",
+    "transformer\\distilbert_relation_classifier\\added_tokens.json",
+    "transformer\\distilbert_relation_classifier\\config.json",
+    "transformer\\distilbert_relation_classifier\\model.safetensors",
+    "transformer\\distilbert_relation_classifier\\special_tokens_map.json",
+    "transformer\\distilbert_relation_classifier\\tokenizer.json",
+    "transformer\\distilbert_relation_classifier\\tokenizer_config.json",
+    "transformer\\distilbert_relation_classifier\\vocab.txt",
+    "transformer\\kg_edges_transformer.csv",
+    "transformer\\kg_transformer.html",
+    "transformer\\metrics_transformer.csv",
+    "transformer\\predictions_all_transformer.csv",
+    "transformer\\predictions_test_transformer.csv",
+    "transformer\\training_history.csv"
   ]
 }

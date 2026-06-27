@@ -1,3 +1,4 @@
 model_name,num_nodes,num_edges,mean_confidence,mean_evidence_count,relation_distribution
 baseline_best: tfidf_logreg_basic,191,653,0.9808446996935651,1.6937212863705973,family: 522; service_retainer: 91; romantic: 40
 bilstm_marked,236,976,0.9821959949493396,1.7172131147540983,family: 493; service_retainer: 237; enemy_rival: 115; romantic: 78; friend_ally: 53
+transformer_distilbert,251,1297,0.9804844702363387,2.1094834232845026,family: 609; service_retainer: 255; romantic: 185; enemy_rival: 131; friend_ally: 117
